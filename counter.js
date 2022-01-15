@@ -2,7 +2,7 @@
 const input = document.getElementById('input');
 const characters = document.getElementById('characters');
 const word = document.getElementById('word');
-
+// coded by darke soul:
 function counter() {
     var char = input.value;
     var chartrim = char.replace(/\s/g, '');
