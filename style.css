@@ -1,0 +1,43 @@
+
+ .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBFFD6;
+}
+.main form textarea{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    outline: none;
+    border: none;
+    padding: 10px;
+    resize: none;
+    font-family: verdana, sans-serif;
+  background-color: white }
+
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+textarea {
+   height: 200px;
+   width: 300px;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+.main #counts{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+}
+h2 {
+    font-family: fantasy
+ }
+.school {
+      text-align: center;
+      font-family: cursive;
+      font-style: bold;
+ }
+  
